@@ -13,7 +13,7 @@ public class Price {
         int quantity = intInput("How many " + productName + " to sell?");
 
         //CAlculate the total price
-        double totalPrice = price + quantity;
+        double totalPrice = price * quantity;
 
         System.out.println(quantity + " of " + productName + " at $" + price + "each costs $" + totalPrice);
 
