@@ -15,7 +15,7 @@ public class Price {
         //Calculate the total price
         double totalPrice = price * quantity;
 
-        System.out.println(String.format(quantity + " of " + productName + " at $" + price + "each costs $" + totalPrice));
+        System.out.println(quantity + " of " + productName + " at $" + price + "each costs $" + totalPrice);
 
     }
 }
