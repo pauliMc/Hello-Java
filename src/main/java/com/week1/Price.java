@@ -12,10 +12,10 @@ public class Price {
         double price = doubleInput("What does " + productName + " cost?");
         int quantity = intInput("How many " + productName + " to sell?");
 
-        //CAlculate the total price
+        //Calculate the total price
         double totalPrice = price * quantity;
 
-        System.out.println(quantity + " of " + productName + " at $" + price + "each costs $" + totalPrice);
+        System.out.println(String.format(quantity + " of " + productName + " at $" + price + "each costs $" + totalPrice));
 
     }
 }
